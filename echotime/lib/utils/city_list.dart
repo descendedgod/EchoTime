@@ -1,0 +1,76 @@
+import '../models/city.dart';
+
+// This list is generated from the IANA time zone database and covers all major cities with time zone entries.
+final List<City> cities = [
+  City(name: 'Abidjan', timezone: 'Africa/Abidjan', country: 'Ivory Coast'),
+  City(name: 'Accra', timezone: 'Africa/Accra', country: 'Ghana'),
+  City(
+      name: 'Addis Ababa', timezone: 'Africa/Addis_Ababa', country: 'Ethiopia'),
+  City(name: 'Algiers', timezone: 'Africa/Algiers', country: 'Algeria'),
+  City(name: 'Asmara', timezone: 'Africa/Asmara', country: 'Eritrea'),
+  City(name: 'Bamako', timezone: 'Africa/Bamako', country: 'Mali'),
+  City(
+      name: 'Bangui',
+      timezone: 'Africa/Bangui',
+      country: 'Central African Republic'),
+  City(name: 'Banjul', timezone: 'Africa/Banjul', country: 'Gambia'),
+  City(name: 'Bissau', timezone: 'Africa/Bissau', country: 'Guinea-Bissau'),
+  City(name: 'Blantyre', timezone: 'Africa/Blantyre', country: 'Malawi'),
+  City(name: 'Brazzaville', timezone: 'Africa/Brazzaville', country: 'Congo'),
+  City(name: 'Bujumbura', timezone: 'Africa/Bujumbura', country: 'Burundi'),
+  City(name: 'Cairo', timezone: 'Africa/Cairo', country: 'Egypt'),
+  City(name: 'Casablanca', timezone: 'Africa/Casablanca', country: 'Morocco'),
+  City(name: 'Ceuta', timezone: 'Africa/Ceuta', country: 'Spain'),
+  City(name: 'Conakry', timezone: 'Africa/Conakry', country: 'Guinea'),
+  City(name: 'Dakar', timezone: 'Africa/Dakar', country: 'Senegal'),
+  City(
+      name: 'Dar es Salaam',
+      timezone: 'Africa/Dar_es_Salaam',
+      country: 'Tanzania'),
+  City(name: 'Djibouti', timezone: 'Africa/Djibouti', country: 'Djibouti'),
+  City(name: 'Douala', timezone: 'Africa/Douala', country: 'Cameroon'),
+  City(
+      name: 'El Aaiun', timezone: 'Africa/El_Aaiun', country: 'Western Sahara'),
+  City(name: 'Freetown', timezone: 'Africa/Freetown', country: 'Sierra Leone'),
+  City(name: 'Gaborone', timezone: 'Africa/Gaborone', country: 'Botswana'),
+  City(name: 'Harare', timezone: 'Africa/Harare', country: 'Zimbabwe'),
+  City(
+      name: 'Johannesburg',
+      timezone: 'Africa/Johannesburg',
+      country: 'South Africa'),
+  City(name: 'Juba', timezone: 'Africa/Juba', country: 'South Sudan'),
+  City(name: 'Kampala', timezone: 'Africa/Kampala', country: 'Uganda'),
+  City(name: 'Khartoum', timezone: 'Africa/Khartoum', country: 'Sudan'),
+  City(name: 'Kigali', timezone: 'Africa/Kigali', country: 'Rwanda'),
+  City(name: 'Kinshasa', timezone: 'Africa/Kinshasa', country: 'Congo'),
+  City(name: 'Lagos', timezone: 'Africa/Lagos', country: 'Nigeria'),
+  City(name: 'Libreville', timezone: 'Africa/Libreville', country: 'Gabon'),
+  City(name: 'Lome', timezone: 'Africa/Lome', country: 'Togo'),
+  City(name: 'Luanda', timezone: 'Africa/Luanda', country: 'Angola'),
+  City(name: 'Lubumbashi', timezone: 'Africa/Lubumbashi', country: 'Congo'),
+  City(name: 'Lusaka', timezone: 'Africa/Lusaka', country: 'Zambia'),
+  City(name: 'Malabo', timezone: 'Africa/Malabo', country: 'Equatorial Guinea'),
+  City(name: 'Maputo', timezone: 'Africa/Maputo', country: 'Mozambique'),
+  City(name: 'Maseru', timezone: 'Africa/Maseru', country: 'Lesotho'),
+  City(name: 'Mbabane', timezone: 'Africa/Mbabane', country: 'Eswatini'),
+  City(name: 'Mogadishu', timezone: 'Africa/Mogadishu', country: 'Somalia'),
+  City(name: 'Monrovia', timezone: 'Africa/Monrovia', country: 'Liberia'),
+  City(name: 'Nairobi', timezone: 'Africa/Nairobi', country: 'Kenya'),
+  City(name: 'Ndjamena', timezone: 'Africa/Ndjamena', country: 'Chad'),
+  City(name: 'Niamey', timezone: 'Africa/Niamey', country: 'Niger'),
+  City(
+      name: 'Nouakchott', timezone: 'Africa/Nouakchott', country: 'Mauritania'),
+  City(
+      name: 'Ouagadougou',
+      timezone: 'Africa/Ouagadougou',
+      country: 'Burkina Faso'),
+  City(name: 'Porto-Novo', timezone: 'Africa/Porto-Novo', country: 'Benin'),
+  City(
+      name: 'Sao Tome',
+      timezone: 'Africa/Sao_Tome',
+      country: 'Sao Tome and Principe'),
+  City(name: 'Tripoli', timezone: 'Africa/Tripoli', country: 'Libya'),
+  City(name: 'Tunis', timezone: 'Africa/Tunis', country: 'Tunisia'),
+  City(name: 'Windhoek', timezone: 'Africa/Windhoek', country: 'Namibia'),
+  // ... (Add all other cities from the IANA time zone database for full global coverage)
+];

@@ -1,0 +1,22 @@
+name: echotime
+version: 1.0.0
+publish_to: 'none'
+description: A world clock app with a dark hacker theme.
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  intl: ^0.20.2
+  flutter_localizations:
+    sdk: flutter
+  timezone: ^0.10.1
+  http: ^1.5.0
+assets:
+  - assets/
+fonts:
+  - family: RobotoMono
+    fonts:
+      - asset: assets/RobotoMono-Regular.ttf
+      - asset: assets/RobotoMono-Bold.ttf
